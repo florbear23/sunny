@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; background-color: gainsboro;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+
+
+<div class="container-nav">
+<nav>
+  <div class="logo-con">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+  </div>
+  <div class="links-con">
+      <div class="link">
+          <a href="#">About</a>
+      </div>
+      <div class="link">
+        <a href="#">Service</a>
+      </div>
+      <div class="link">
+        <a href="#">Project</a>
+      </div>
+      <div class="link">
+        <a href="#">Contact</a>
+      </div>
+  </div>
+  <div class="burger">
+    <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
+  </div>
+</nav>
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+ </div>
+ 
+
+
+<div class="main-container">
+<div class="header-con">
+ <div class="title-text"><p>WE ARE CREATIVES</p></div>
+  <div class="header-title"></div>
+</div>
+<div class="box-con ">
+<div class="box-con-2">
+<div class="title-content">
+  <p>Transform your brand</p>
+</div>
+<div class="main-content">
+  <p>We are a full-service creative agency specializing in helping brands grow fast. 
+    Engage your clients through compelling visuals that do most of the marketing for you.</p>
+</div>
+<div class="last-content">
+  <p>Learn More</p>
+</div>
+</div>
+</div>
+<div class="box-con ">
+</div>
+<div class="box-con "></div>
+<div class="box-con" >
+<div class="box-con-2">
+
+  <div class="title-content">
+    <p>Stand out to the right audience</p>
+  </div>
+  <div class="main-content">
+    <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, well build and extend your brand in digital places.</p>
+  </div>
+  <div class="last-content "style="border-bottom: #fe7563 5px solid !important;">
+    <p>Learn More</p>
+  </div>
+</div>
+</div>
+<div class="box-con design1">
+  <div class="content-design">
+      <div class="design-title">
+        <p>Graphic design</p>
+      </div>
+      <div class="design-content">
+        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients attention.</p>
+      </div>
+
+  </div>
+</div>
+<div class="box-con design2">
+  <div class="content-design">
+    <div class="design-title">
+      <p>Graphic design</p>
+    </div>
+    <div class="design-content">
+      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients attention.</p>
+    </div>
+
+</div>
+
+</div>
+<div class="client-con">
+  <div class="client-tittle">
+    <p>Client testimonials</p>
+  </div>
+  <div class="client-inner">
+      <div class="card">
+        <div class="card-top">
+          <img src="./images/image-emily.jpg" alt="">
+        </div>
+        <div class="card-middle">
+          <p> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <p>
+            Emily R.
+          </p>
+          <p> Marketing Director</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <img src="./images/image-thomas.jpg" alt="">
+        </div>
+        <div class="card-middle">
+          <p>Sunnysides enthusiasm coupled with their keen interest in our brands success made it a satisfying and enjoyable experience.
+          </p>
+        </div>
+        <div class="card-bottom">
+          <p>
+            Thomas S.
+          </p>
+          <p>Chief Operating Officer</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <img src="./images/image-jennie.jpg" alt="">
+        </div>
+        <div class="card-middle">
+          <p> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+        </div>
+        <div class="card-bottom">
+          <p>
+            Jennie F.
+          </p>
+          <p>  Business Owner</p>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="pic-box">
+  <div class="pic-1"></div>
+  <div class="pic-2"></div>
+  <div class="pic-3"></div>
+  <div class="pic-4"></div>
+</div>
+<div class="footer-con">
+
+  <div class="footer-area">
+    <div class="footer-top">
+      <div class="footer-title">
+        <h1>sunnyside</h1>
+      </div>
+    </div>
+    <div class="footer-middle">
+      <div class="footer-links"><a href="#">About</a></div>
+      <div class="footer-links"><a href="#">Service</a></div>
+      <div class="footer-links"><a href="#">Projects</a></div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-logo"></div>
+      <div class="footer-logo"></div>
+      <div class="footer-logo"></div>
+      <div class="footer-logo"></div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">mark jame bersamina</a>.
+  </div>
+</body>
+<script>
+  /* Open the sidenav */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "60%";
+}
+
+/* Close/hide the sidenav */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</html>
